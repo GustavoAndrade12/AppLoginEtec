@@ -57,7 +57,7 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:text="Entrar"
-        color/>
+        />
 
     <com.google.android.material.button.MaterialButton
         style="@style/Widget.MaterialComponents.Button"

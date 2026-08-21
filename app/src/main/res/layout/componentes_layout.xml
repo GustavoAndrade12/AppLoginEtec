@@ -57,10 +57,6 @@
         android:layout_height="wrap_content"
         android:text="escolha " />
 
-    <Spinner
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:entries="@array/dados" />
 
     <DatePicker
         android:layout_width="wrap_content"

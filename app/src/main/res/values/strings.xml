@@ -1,9 +1,4 @@
 <resources>
     <string name="app_name">MyApp</string>
-    <array name="dados">
-        <item São Paulo></item>
-        <item Bauneario></item>
-        <item São Carlos></item>
-        <item Beach Park></item>
-    </array>
+
 </resources>
