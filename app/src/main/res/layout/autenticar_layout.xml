@@ -15,7 +15,7 @@
         android:layout_gravity="center_horizontal"
         android:layout_margin="30dp"
         android:scaleType="centerCrop"
-        android:src="@drawable/baseline_smart_toy" />
+        android:src="@drawable/baseline_smart_toys" />
 
     <TextView
         android:layout_width="wrap_content"
@@ -30,28 +30,78 @@
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:orientation="horizontal"
-        >
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="#FF0909"
-        />
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="#2C2C2C"/>
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="#BDA613"/>
-        <ImageView
-            android:layout_width="50dp"
-            android:layout_height="50dp"
-            android:src="#2C2C2C"/>
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
 
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
 
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
+
+        <EditText
+            android:layout_width="60dp"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:hint="0"
+            android:inputType="number"
+            android:maxLength="1"
+            android:textAlignment="center"
+            android:textAllCaps="true"
+            android:textSize="24sp"
+            android:textStyle="bold" />
     </LinearLayout>
 
+    <com.google.android.material.button.MaterialButton
+        style="@style/Widget.MaterialComponents.Button"
+        android:layout_width="350dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center_horizontal"
+        android:text="Cadastrar" />
 
 </LinearLayout>
